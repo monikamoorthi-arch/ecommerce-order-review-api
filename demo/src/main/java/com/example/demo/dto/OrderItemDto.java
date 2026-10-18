@@ -4,12 +4,6 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 
 public class OrderItemDto {
-//    private Long productId;
-//    private String name;
-//    private Integer quantity;
-//    private String image;
-//    private Double price;
-
     @NotNull(message = "productId is required")
     private Long productId;
     private String name;
